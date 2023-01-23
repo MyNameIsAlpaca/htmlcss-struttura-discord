@@ -112,21 +112,32 @@
     height: 300px;
 }
 
-.small-article-info {
+.article-info {
     display: flex;
     flex-flow: column nowrap;
     width: 410px;
     height: 430px;
 }
 
-.small-article-title {
+.article-title {
     background-color: orange;
     display: flex;
     flex-grow: 2;
 }
 
-.small-article-description {
+.article-description {
     background-color: yellow;
     display: flex;
     flex-grow: 1;
+}
+
+.big-size {
+    background-color: bisque;
+    width: auto;
+    height: 840px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
 }
