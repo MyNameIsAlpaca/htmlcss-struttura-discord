@@ -20,7 +20,7 @@
 }
 
 .nav-inner {
-    background-color: rgb(6, 179, 179);
+    background-color: #255ee9;
 }
 
 #logo {
@@ -45,4 +45,51 @@
     background-color: blue;
     width: 130px;
     height: 40px;
+}
+
+.main-top{
+    background-color: #255ee9 ;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-inner {
+    width: 800px;
+    height: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+#title {
+    background-color: green;
+    width: 520px;
+    height: 45px;
+}
+
+#description {
+    background-color: lightgreen;
+    width: 100%;
+    height: 90px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#download {
+    background-color: beige;
+    width: 210px;
+    height: 60px;
+}
+
+#open {
+    background-color: beige;
+    width: 300px;
+    height: 60px;
 }
