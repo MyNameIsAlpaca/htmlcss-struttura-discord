@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-.layout-size {
+.layout-size-nav {
     width: 1200px ;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .nav-main {
     display: flex;
@@ -92,4 +93,40 @@
     background-color: beige;
     width: 300px;
     height: 60px;
+}
+
+.article-section .small-size {
+    width: auto;
+    height: 660px;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.image {
+    background-color: grey;
+    width: 500px;
+    height: 300px;
+}
+
+.small-article-info {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 410px;
+    height: 430px;
+}
+
+.small-article-title {
+    background-color: orange;
+    display: flex;
+    flex-grow: 2;
+}
+
+.small-article-description {
+    background-color: yellow;
+    display: flex;
+    flex-grow: 1;
 }
