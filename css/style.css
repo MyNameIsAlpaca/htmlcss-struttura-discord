@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-size {
+    width: 1200px ;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-main {
+    display: flex;
+    background-color: lightblue;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-inner {
+    background-color: rgb(6, 179, 179);
+}
+
+#logo {
+    background-color: blue;
+    width: 130px;
+    height: 40px;
+}
+
+#link ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+#link li {
+    width: 110px;
+    height: 20px;
+    background-color: blue;
+}
+
+#login {
+    background-color: blue;
+    width: 130px;
+    height: 40px;
+}
