@@ -141,3 +141,51 @@
     align-items: center;
     gap: 70px;
 }
+
+.last-article {
+    background-color: bisque;
+    width: auto;
+    height: 1300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.last-article-info {
+    background-color: white;
+    width: 1000px;
+    height: 135px;
+}
+
+.last-article-title {
+    background-color: blue;
+    width: 1000px;
+    height: 50px;
+    
+}
+
+.last-article-description {
+ background-color: red;
+ width: 1000px;
+ height: calc(100% - 50px);
+}
+
+.last-article-image {
+background-color: white;
+width: 1120px;
+height: 575px;
+}
+
+.last-article-conclusion {
+    background-color: black;
+    width: 610px;
+    height: 60px;
+}
+
+.last-article-download {
+    background-color: #255ee9;
+    height: 50px;
+    width: 200px;
+}
